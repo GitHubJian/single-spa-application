@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Test</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <section class="spa-container spa-container-full is-vertical">
+      <header class="spa-header" style="height: 60px;">
+        <div class="spa-logo" style="width: 200px;"></div>
+        <h3 class="spa-hmenu__title" style="width: 120px; line-height: 60px;;">
+          系统菜单
+        </h3>
+        <ul class="spa-hmenu" style="line-height: 60px;">
+          <li class="spa-hmenu__item">
+            <button>
+              <span>系统1</span>
+            </button>
+          </li>
+          <li class="spa-hmenu__item is-active">
+            <button>
+              <span>系统2</span>
+            </button>
+          </li>
+        </ul>
+      </header>
+      <section class="spa-container">
+        <aside class="spa-aside" style="width: 200px;">
+          <ul class="spa-menu">
+            <li class="spa-submenu">
+              <div class="spa-submenu__title">
+                <i></i>
+                <span>导航1</span>
+                <i></i>
+              </div>
+              <ul class="spa-menu span-menu--inline">
+                <li class="spa-menu-item-group">
+                  <div class="spa-menu-item-group__title">分组1</div>
+                  <ul>
+                    <li class="spa-menu-item">选项1</li>
+                    <li class="spa-menu-item">选项2</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="spa-menu-item is-active">
+              <i></i>
+              <span>按钮1</span>
+            </li>
+            <li class="spa-menu-item is-disabled">
+              <i></i>
+              <span>按钮2</span>
+            </li>
+            <li class="spa-menu-item">
+              <i></i>
+              <span>按钮2</span>
+            </li>
+          </ul>
+        </aside>
+        <section class="spa-container is-vertical">
+          <main class="spa-main">
+            <div class="spa-tabs spa-tabs--border-card">
+              <div class="spa-tabs__header">
+                <div class="spa-tabs__tips">TABS</div>
+                <div class="spa-tabs__nav-wrap">
+                  <div class="spa-tabs__nav-scroll">
+                    <div class="spa-tabs__nav">
+                      <div class="spa-tabs__active-bar"></div>
+                      <div class="spa-tabs__item is-active">A</div>
+                      <div class="spa-tabs__item ">B</div>
+                      <div class="spa-tabs__item">C</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="spa-tabs__content">
+                <div class="spa-tab-pane">Hello, world</div>
+              </div>
+            </div>
+          </main>
+          <footer class="spa-footer" style="height: 30px;"></footer>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
